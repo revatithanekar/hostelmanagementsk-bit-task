@@ -15,7 +15,7 @@ This is a front-end web project for managing student leave requests in a hostel 
 - <img width="1452" height="937" alt="Screenshot 2025-08-03 161840" src="https://github.com/user-attachments/assets/3db334f6-5cd0-4dd3-8c0a-0bc1ef9bb089" />
 - login2:-
 - <img width="1624" height="955" alt="Screenshot 2025-08-03 161906" src="https://github.com/user-attachments/assets/3ef4df1c-217b-4a70-9eef-6fdc4a61da8e" />
-Dashboared:-
+  Dashboared:-
 <img width="1869" height="967" alt="Screenshot 2025-08-03 162018" src="https://github.com/user-attachments/assets/f664fc1c-76e4-45bd-a264-360b098581a5" />
 -dashbord2:-
 <img width="1887" height="950" alt="Screenshot 2025-08-03 162041" src="https://github.com/user-attachments/assets/5541d1a2-996e-4543-8d8a-f3e4900b23bc" />
@@ -30,6 +30,7 @@ This all about the hostel management pages
 
 
   
+
 
 
 
