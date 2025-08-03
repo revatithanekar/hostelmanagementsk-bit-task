@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leave Requests | Hostel Leave Management</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+    <div class="logo">
+      <img src="zeal logo.jpeg" alt="User" style="width: 50px; height: 50px; border-radius: 50%;">
+      <h2> Hostel Leave Management</h2>
+    </div>
+      <ul class="nav">
+        <li><a href="dashboared.html"><i class="fas fa-chart-pie"></i> Dashboard</a></li>
+        <li class=""><a href="reviewrequests.html"><i class="fas fa-file-alt"></i> Review Requests</a></li>
+        <li><a href="analytics.html"><i class="fas fa-chart-line"></i> Analytics</a></li>
+        <li><a href="notifications.html"><i class="fas fa-bell"></i> Notifications</a></li>
+        <li><a href="profile.html"><i class="fas fa-user"></i> Profile</a></li>
+        <li><a href="settings.html"><i class="fas fa-cog"></i> Settings</a></li>
+      </ul>
+    <button class="logout-btn">Log out</button>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+       <div class="top-bar">
+      <input type="text" placeholder="Search..." class="search">
+      <img src="imagesbell.png" alt="User" style="width: 50px; height: 50px; border-radius: 50%;">
+      <img src="profile image.jpeg" alt="User" style="width: 50px; height: 50px; border-radius: 50%;">
+
+    </div>
+
+      <section class="leave-requests">
+        <h1>Leave Requests</h1>
+        <p class="sub-text">Your student's leave requests at a glance…</p>
+
+        <div class="filters">
+          <div class="status-btns">
+            <button class="active">All</button>
+            <button>Approved</button>
+            <button>Pending</button>
+            <button>Rejected</button>
+          </div>
+          <div class="dropdowns">
+            <select>
+              <option>Date Range</option>
+            </select>
+            <select>
+              <option>Leave Type</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="bulk-actions">
+          <button class="approve-all"><i class="fas fa-check-circle"></i> Approve All</button>
+          <button class="reject-all"><i class="fas fa-times-circle"></i> Reject All</button>
+        </div>
+
+        <div class="table">
+          <div class="table-head">
+            <span>Student</span>
+            <span>Date Range</span>
+            <span>Action</span>
+          </div>
+<div class="table-row">
+                <div class="student-info">
+                    <img src="profile image.jpeg" alt="Avatar">
+                    <div>
+                        <strong>Shreyas Patil</strong><br>
+                        <small>Personal Leave</small>
+                    </div>
+                </div>
+                <div class="date-range">27th Apr 2025 - 28th Apr 2025</div>
+                <div class="actions">
+                    <button class="approve">Approve</button>
+                    <button class="reject">Reject</button>
+                    <a href="#">View</a>
+                    <span class="time">2h ago</span>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="student-info">
+                    <img src="profile image.jpeg" alt="Avatar">
+                    <div>
+                        <strong>Nilesh Kumar</strong><br>
+                        <small>Sick Leave</small>
+                    </div>
+                </div>
+                <div class="date-range">12th May 2025 - 17th May 2025</div>
+                <div class="actions">
+                    <button class="approve">Approve</button>
+                    <button class="reject">Reject</button>
+                    <a href="#">View</a>
+                    <span class="time">4d ago</span>
+                </div>
+            </div>
+
+            <div class="table-row">
+                <div class="student-info">
+                    <img src="profile image.jpeg" alt="Avatar">
+                    <div>
+                        <strong>Smita Wagh</strong><br>
+                        <small>Casual Leave</small>
+                    </div>
+                </div>
+                <div class="date-range">12th May 2025 - 17th May 2025</div>
+                <div class="actions">
+                    <button class="approve">Approve</button>
+                    <button class="reject">Reject</button>
+                    <a href="#">View</a>
+                    <span class="time">7d ago</span>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="student-info">
+                    <img src="profile image.jpeg" alt="Avatar">
+                    <div>
+                        <strong>Aryan Patil</strong><br>
+                        <small>Emergency Leave</small>
+                    </div>
+                </div>
+                <div class="date-range">12th May 2025 - 17th May 2025</div>
+                <div class="actions">
+                    <button class="approve">Approve</button>
+                    <button class="reject">Reject</button>
+                    <a href="#">View</a>
+                    <span class="time">7d ago</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+    </div>
+
+      </section>
+    </main>
+  </div>
+</body>
+</html>

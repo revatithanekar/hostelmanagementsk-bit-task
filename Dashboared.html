@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="dashboard">
+
+  <div class="sidebar">
+    <div class="logo">
+      <img src="zeal logo.jpeg" alt="User" style="width: 50px; height: 50px; border-radius: 50%;">
+      <h2> Hostel Leave Management</h2>
+    </div>
+
+  <ul class="nav">
+           
+      
+        <li><a href="Dashbord2.html"><i class="fas fa-chart-pie"></i> Dashboard</a></li>
+        <li class=""><a href="reviewrequests.html"><i class="fas fa-file-alt"></i> Review Requests</a></li>
+        <li><a href="analytics.html"><i class="fas fa-chart-line"></i> Analytics</a></li>
+        <li><a href="notifications.html"><i class="fas fa-bell"></i> Notifications</a></li>
+        <li><a href="profile.html"><i class="fas fa-user"></i> Profile</a></li>
+        <li><a href="settings.html"><i class="fas fa-cog"></i> Settings</a></li>
+    </ul>
+    <button class="logout-btn">Log out</button>
+  </div>
+
+  <div class="New">
+    <div class="top-bar">
+      <input type="text" placeholder="Search..." class="search">
+      <img src="imagesbell.png" alt="User" style="width: 50px; height: 50px; border-radius: 50%;">
+      <img src="profile image.jpeg" alt="User" style="width: 50px; height: 50px; border-radius: 50%;">
+
+    </div>
+    <div class="header">
+      <h1>Admin Dashboard</h1>
+      <p>Your student’s leave summary at a glance...</p>
+    </div>
+
+    <div class="stats">
+      <div class="box total">
+        <h3>Total Leaves (month)</h3>
+
+        <p>120</p>
+      </div>
+      <div class="box approved">
+        <h3>Leaves Approved</h3>
+        <p>95</p>
+      </div>
+      <div class="box pending">
+        <h3>Pending Leaves</h3>
+        <p>15</p>
+      </div>
+      <div class="box rejected">
+        <h3>Rejected Leaves</h3>
+        <p>10</p>
+      </div>
+    </div>
+
+    <div class="activity">
+      <span class="activity-header">
+        <h3>Recent Activity</h3>
+        <div class="actions">
+          <button class="approve-all" ; img src="tick.jpg" alt="User">Approve All</button>
+          <button class="reject-all">Reject All</button>
+        </div>
+      </span>
+      <div class="entry">
+        <img src="profile image.jpeg" alt="User">
+        <div class="info">
+          <strong>Ethan Carter</strong>
+          <p>Vacation Request</p>
+        </div>
+        <span class="badge pending">Pending</span>
+        <span class="time">2h ago</span>
+      </div>
+
+      <div class="entry">
+        <img src="profile image.jpeg" alt="User">
+        <div class="info">
+          <strong>Ethan Carter</strong>
+          <p>Vacation Request</p>
+        </div>
+        <span class="badge approved">Approved</span>
+        <span class="time">4d ago</span>
+      </div>
+
+      <div class="entry">
+        <img src="profile image.jpeg" alt="User">
+        <div class="info">
+          <strong>Ethan Carter</strong>
+          <p>Vacation Request</p>
+        </div>
+        <span class="badge rejected">Rejected</span>
+        <span class="time">7d ago</span>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
